@@ -37,6 +37,8 @@ export function Community() {
               <video
                 src={`/videos/community/${item.src}`}
                 controls
+                controlsList="nodownload"
+                onContextMenu={(e) => e.preventDefault()}
                 className="w-full h-full object-cover transform transition-transform duration-700 ease-out group-hover:scale-[1.02]"
                 preload="metadata"
               >

@@ -196,6 +196,8 @@ export function Work() {
                     src={video.src} 
                     className="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity duration-300"
                     controls
+                    controlsList="nodownload"
+                    onContextMenu={(e) => e.preventDefault()}
                     preload="metadata"
                   />
                 </div>
