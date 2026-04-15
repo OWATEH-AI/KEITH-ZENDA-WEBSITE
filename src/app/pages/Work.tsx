@@ -7,35 +7,105 @@ const artworkFiles = import.meta.glob("@/assets/artworks/*.{png,jpg,jpeg,webp,sv
 const videoFiles = [
   {
     id: 'v1',
+    title: 'Studio Session I',
+    src: '/videos/VID-20260415-WA0040.mp4',
+    duration: 'Behind The Scenes',
+    description: 'Exploring forms and discovering new narratives in the studio.'
+  },
+  {
+    id: 'v2',
+    title: 'Studio Session II',
+    src: '/videos/VID-20260415-WA0036.mp4',
+    duration: 'Behind The Scenes',
+    description: 'An intimate look at the delicate application of mixed media elements.'
+  },
+  {
+    id: 'v3',
+    title: 'Studio Session III',
+    src: '/videos/VID-20260415-WA0035.mp4',
+    duration: 'Behind The Scenes',
+    description: 'Witnessing the creative flow and unyielding artistic dedication.'
+  },
+  {
+    id: 'v4',
+    title: 'Studio Session IV',
+    src: '/videos/VID-20260415-WA0032.mp4',
+    duration: 'Behind The Scenes',
+    description: 'The final touches bringing the canvas to life with vivid storytelling.'
+  },
+  {
+    id: 'v5',
+    title: 'Studio Session V',
+    src: '/videos/VID-20260415-WA0022.mp4',
+    duration: 'Behind The Scenes',
+    description: 'Exploring forms and discovering new narratives in the studio.'
+  },
+  {
+    id: 'v6',
+    title: 'Studio Session VI',
+    src: '/videos/VID-20260415-WA0020.mp4',
+    duration: 'Behind The Scenes',
+    description: 'An intimate look at the delicate application of mixed media elements.'
+  },
+  {
+    id: 'v7',
+    title: 'Studio Session VII',
+    src: '/videos/VID-20260415-WA0019.mp4',
+    duration: 'Behind The Scenes',
+    description: 'Witnessing the creative flow and unyielding artistic dedication.'
+  },
+  {
+    id: 'v8',
+    title: 'Studio Session VIII',
+    src: '/videos/VID-20260415-WA0018.mp4',
+    duration: 'Behind The Scenes',
+    description: 'The final touches bringing the canvas to life with vivid storytelling.'
+  },
+  {
+    id: 'v9',
+    title: 'Studio Session IX',
+    src: '/videos/VID-20260415-WA0017.mp4',
+    duration: 'Behind The Scenes',
+    description: 'Exploring forms and discovering new narratives in the studio.'
+  },
+  {
+    id: 'v10',
+    title: 'Studio Session X',
+    src: '/videos/VID-20260415-WA0016.mp4',
+    duration: 'Behind The Scenes',
+    description: 'An intimate look at the delicate application of mixed media elements.'
+  },
+  {
+    id: 'v11',
     title: 'Keith Zenda Art',
     src: '/videos/KEITH ZENDA ART.mp4',
     duration: 'Full Feature',
     description: 'A glimpse into the artist\'s profound process and creative expressions.'
   },
   {
-    id: 'v2',
-    title: 'Studio Session I',
+    id: 'v12',
+    title: 'Studio Session XI',
     src: '/videos/WhatsApp Video 2026-04-04 at 10.44.48.mp4',
     duration: 'Behind The Scenes',
     description: 'Exploring forms and discovering new narratives in the studio.'
   },
   {
-    id: 'v3',
-    title: 'Studio Session II',
+    id: 'v13',
+    title: 'Studio Session XII',
     src: '/videos/WhatsApp Video 2026-04-04 at 10.44.49.mp4',
     duration: 'Behind The Scenes',
     description: 'An intimate look at the delicate application of mixed media elements.'
   },
   {
-    id: 'v4',
-    title: 'Studio Session III',
+    id: 'v14',
+    title: 'Studio Session XIII',
     src: '/videos/WhatsApp Video 2026-04-04 at 10.44.50.mp4',
     duration: 'Behind The Scenes',
     description: 'Witnessing the creative flow and unyielding artistic dedication.'
   },
   {
-    id: 'v5',
-    title: 'Studio Session IV',
+    id: 'v15',
+    title: 'Studio Session XIV',
     src: '/videos/WhatsApp Video 2026-04-04 at 10.44.51.mp4',
     duration: 'Behind The Scenes',
     description: 'The final touches bringing the canvas to life with vivid storytelling.'
