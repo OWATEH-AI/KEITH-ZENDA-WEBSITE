@@ -8,47 +8,106 @@ export type MediaItem = {
 
 export const communityMedia: MediaItem[] = [
   // ═══════════════════════════════════════════════════════════════════
-  // EXISTING COMMUNITY IMAGES (WhatsApp originals)
+  // EARLY CONSTRUCTION STAGES
   // ═══════════════════════════════════════════════════════════════════
   {
-    src: "WhatsApp Image 2022.34.18.jpeg",
-    title: "Guest of Honor",
-    description: "Our Guest of Honor Chief Chinamhora gracing the official gallery opening.",
+    src: "IMG-20260410-WA0073.jpg",
+    title: "Foundation and Early Build",
+    description: "Laying the foundation and starting the brickwork for the gallery structure.",
     category: "construction",
     type: "image"
   },
   {
-    src: "WhatsApp Image 2026-04-09 at 22.34.18.jpeg",
-    title: "Marquee Setup",
-    description: "A view of the marquee set up for the opening event of the Keith Zenda Art Space.",
+    src: "IMG-20260410-WA0246.jpg",
+    title: "Raising the Walls",
+    description: "Workers on scaffolding raising the high brick walls of the gallery building.",
     category: "construction",
     type: "image"
   },
-  // ═══════════════════════════════════════════════════════════════════
-  // NEW IMAGES — GALLERY CONSTRUCTION & OPENING (from PICTURES 2)
-  // ═══════════════════════════════════════════════════════════════════
   {
-    src: "IMG-20260410-WA0036.jpg",
-    title: "Opening Ceremony Guests",
-    description: "A large group of community members and guests seated outdoors for the gallery opening ceremony.",
+    src: "IMG-20260410-WA0130.jpg",
+    title: "Roofing the Gallery",
+    description: "Installing the timber framing and roof trusses for the building's high ceilings.",
+    category: "construction",
+    type: "image"
+  },
+  {
+    src: "IMG-20260410-WA0150.jpg",
+    title: "Exterior Plastering",
+    description: "Plastering the exterior walls and constructing the main entrance brick pillar.",
+    category: "construction",
+    type: "image"
+  },
+  {
+    src: "IMG-20260410-WA0151.jpg",
+    title: "Painting Phase",
+    description: "Keith Zenda personally applying the first coats of white paint onto the gallery walls.",
+    category: "construction",
+    type: "image"
+  },
+  {
+    src: "IMG-20260410-WA0152.jpg",
+    title: "Interior Flooring Phase",
+    description: "The interior of the gallery building during the flooring installation phase of construction.",
+    category: "construction",
+    type: "image"
+  },
+  {
+    src: "IMG-20260331-WA0000.jpg",
+    title: "The Gallery by Night",
+    description: "A breathtaking nighttime view of the completed Keith Zenda Art Space — the building illuminated with dramatic blue LED lighting that highlights the entrance mural, with the glass-fronted gallery rooms glowing warmly from within, creating a stunning landmark in the Domboshava landscape.",
+    category: "construction",
+    type: "image"
+  },
+  {
+    src: "IMG-20260410-WA0166.jpg",
+    title: "Keith Zenda — A Dream Realized",
+    description: "Keith Zenda standing proudly with open arms in front of his completed Art Gallery — the ArtGalZim Center in Domboshava — a powerful image symbolizing the fulfillment of years of vision, hard work, and community dedication.",
+    category: "construction",
+    type: "image"
+  },
+  {
+    src: "IMG-20260410-WA0175.jpg",
+    title: "Gallery Exterior — Signature Entrance",
+    description: "A striking full-frontal view of the ArtGalZim Center's completed entrance — the 'ART GALLERY' signage illuminated above a vibrant portrait painting of an African woman in golden headwrap, framed by decorative clay pots, green landscaping, and the modern water feature below.",
+    category: "construction",
+    type: "image"
+  },
+  {
+    src: "IMG-20260410-WA0156.jpg",
+    title: "Inside the Gallery — Full Exhibition View",
+    description: "A panoramic interior shot of the completed gallery in full exhibition mode, with the white-painted walls lined with artwork, lounge furniture, and visitors browsing.",
+    category: "construction",
+    type: "image"
+  },
+  {
+    src: "IMG-20260415-WA0063_1.jpg",
+    title: "Traditional Greetings",
+    description: "Traditional greetings to the rural village Community Chief Chinamhora who was our guest of honor.",
     category: "construction",
     type: "image"
   },
   {
     src: "IMG-20260410-WA0041.jpg",
-    title: "Opening Speech",
-    description: "Keith Zenda standing outdoors during the opening event.",
+    title: "Welcoming Guests",
+    description: "KeithZenda welcoming and appreciating the guests for the Art Gal Zim official launch",
+    category: "construction",
+    type: "image"
+  },
+  {
+    src: "IMG-20260410-WA0032.jpg",
+    title: "Guests Arrival",
+    description: "Community members, supporters, and guests gathering in the gallery courtyard ahead of the official launch ceremonies.",
     category: "construction",
     type: "image"
   },
 
-  {
-    src: "IMG-20260410-WA0045.jpg",
-    title: "Guests Under the Marquee",
-    description: "Guests sitting in chairs under the marquee during the gallery opening event.",
-    category: "construction",
-    type: "image"
-  },
+  // ═══════════════════════════════════════════════════════════════════
+  // NEW IMAGES — GALLERY CONSTRUCTION & OPENING (from PICTURES 2)
+  // ═══════════════════════════════════════════════════════════════════
+
+
+
   {
     src: "IMG-20260410-WA0047.jpg",
     title: "Students in the Painting Workshop",
@@ -112,34 +171,10 @@ export const communityMedia: MediaItem[] = [
     category: "mentorship",
     type: "image"
   },
-  {
-    src: "IMG-20260410-WA0080.jpg",
-    title: "Foundation Materials",
-    description: "An early construction phase of the gallery, showing foundation walls and piles of building materials on-site.",
-    category: "construction",
-    type: "image"
-  },
-  {
-    src: "IMG-20260410-WA0094.jpg",
-    title: "The Gallery by Night",
-    description: "A breathtaking nighttime view of the completed Keith Zenda Art Space — the building illuminated with dramatic blue LED lighting that highlights the entrance mural, with the glass-fronted gallery rooms glowing warmly from within, creating a stunning landmark in the Domboshava landscape.",
-    category: "construction",
-    type: "image"
-  },
-  {
-    src: "IMG-20260410-WA0095.jpg",
-    title: "Mounting the Facade Artwork",
-    description: "A team member mounting a beautiful portrait painting onto the gallery's tall entrance display frame, standing on a bucket to reach the top of the steel structure — flanked by traditional clay pots and decorative water features beneath.",
-    category: "construction",
-    type: "image"
-  },
-  {
-    src: "IMG-20260410-WA0114.jpg",
-    title: "Brickwork & Beam Construction",
-    description: "Workers in blue overalls laying bricks and installing concrete lintels and roof beams during the mid-stage construction of the gallery — the floor plan and room layout clearly visible with multiple walls at various heights.",
-    category: "construction",
-    type: "image"
-  },
+
+
+
+
   {
     src: "IMG-20260410-WA0159.jpg",
     title: "School Visit to the Gallery",
@@ -147,27 +182,9 @@ export const communityMedia: MediaItem[] = [
     category: "mentorship",
     type: "image"
   },
-  {
-    src: "IMG-20260410-WA0161.jpg",
-    title: "Inside the Gallery — Full Exhibition View",
-    description: "A panoramic interior shot of the completed gallery in full exhibition mode — high vaulted ceilings with timber trusses, white-painted walls lined with artwork on easels and mounted displays, comfortable lounge furniture, and visitors browsing the curated collections.",
-    category: "construction",
-    type: "image"
-  },
-  {
-    src: "IMG-20260410-WA0165.jpg",
-    title: "The Completed Gallery Facade",
-    description: "The stunning finished exterior of the ArtGalZim Center in Domboshava — featuring the bold blue 'ART GALLERY' signage, a monumental display of artwork on the entrance pillar, landscaped artificial turf with stepping stones, decorative clay pots, and a modern water feature.",
-    category: "construction",
-    type: "image"
-  },
-  {
-    src: "IMG-20260410-WA0166.jpg",
-    title: "Keith Zenda — A Dream Realized",
-    description: "Keith Zenda standing proudly with open arms in front of his completed Art Gallery — the ArtGalZim Center in Domboshava — a powerful image symbolizing the fulfillment of years of vision, hard work, and community dedication.",
-    category: "construction",
-    type: "image"
-  },
+
+
+
   {
     src: "IMG-20260410-WA0168.jpg",
     title: "Gallery Perimeter & Security Fencing",
@@ -175,20 +192,8 @@ export const communityMedia: MediaItem[] = [
     category: "construction",
     type: "image"
   },
-  {
-    src: "IMG-20260410-WA0175.jpg",
-    title: "Gallery Exterior — Signature Entrance",
-    description: "A striking full-frontal view of the ArtGalZim Center's completed entrance — the 'ART GALLERY' signage illuminated above a vibrant portrait painting of an African woman in golden headwrap, framed by decorative clay pots, green landscaping, and the modern water feature below.",
-    category: "construction",
-    type: "image"
-  },
-  {
-    src: "IMG-20260410-WA0177.jpg",
-    title: "Workers in Courtyard",
-    description: "Workers in blue overalls walking across the artificial grass tiles in the gallery's outdoor courtyard.",
-    category: "construction",
-    type: "image"
-  },
+
+
   {
     src: "IMG-20260410-WA0184.jpg",
     title: "Exterior Building View",
@@ -196,27 +201,9 @@ export const communityMedia: MediaItem[] = [
     category: "construction",
     type: "image"
   },
-  {
-    src: "IMG-20260410-WA0185.jpg",
-    title: "Floor Finish Application",
-    description: "Workers applying a black finish to the concrete floor inside the gallery during the final stages of construction.",
-    category: "construction",
-    type: "image"
-  },
-  {
-    src: "IMG-20260410-WA0199.jpg",
-    title: "Roof Framing Progress",
-    description: "Construction progress showing the brick walls and roof framing of the gallery building.",
-    category: "construction",
-    type: "image"
-  },
-  {
-    src: "IMG-20260410-WA0233.jpg",
-    title: "Interior Flooring Phase",
-    description: "The interior of the gallery building during the flooring installation phase of construction.",
-    category: "construction",
-    type: "image"
-  },
+
+
+
 
 
 
