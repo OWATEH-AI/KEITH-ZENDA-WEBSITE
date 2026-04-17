@@ -61,7 +61,7 @@ export function Community() {
   };
 
   return (
-    <div className="min-h-screen bg-background pt-32 pb-10">
+    <div className="bg-background pt-32 pb-5">
       <div className="max-w-7xl mx-auto px-6 md:px-12">
         {/* Header Section */}
         <div className="mb-12 md:mb-16 animate-fade-in-up">

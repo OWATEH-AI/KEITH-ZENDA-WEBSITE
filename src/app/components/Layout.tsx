@@ -66,7 +66,7 @@ export function Layout() {
       </main>
 
       {/* Global Footer */}
-      <footer className="w-full py-8 text-center mt-auto">
+      <footer className="w-full py-4 text-center mt-auto">
         <a 
           href="https://www.owatech-ai.com" 
           target="_blank" 
