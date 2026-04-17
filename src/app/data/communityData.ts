@@ -207,6 +207,35 @@ export const communityMedia: MediaItem[] = [
 
 
 
+  {
+    src: "IMG-20260417-015229.png",
+    title: "Zenda Art Center Mentorship",
+    description: "Zenda Art Center established in Gweru. School kids coming for art mentorship after school.",
+    category: "mentorship",
+    type: "image"
+  },
+  {
+    src: "IMG-20260417-015305.png",
+    title: "After School Art Mentorship",
+    description: "Zenda Art Center established in Gweru. School kids coming for art mentorship after school.",
+    category: "mentorship",
+    type: "image"
+  },
+  {
+    src: "IMG-20260417-015326.png",
+    title: "Creative Mentorship",
+    description: "Zenda Art Center established in Gweru. School kids coming for art mentorship after school.",
+    category: "mentorship",
+    type: "image"
+  },
+  {
+    src: "IMG-20260417-015356.png",
+    title: "Mentorship in Gweru",
+    description: "Zenda Art Center established in Gweru. School kids coming for art mentorship after school.",
+    category: "mentorship",
+    type: "image"
+  },
+
   // ═══════════════════════════════════════════════════════════════════
   // VIDEOS — GALLERY CONSTRUCTION & OPENING (from VIDEEOS 2)
   // ═══════════════════════════════════════════════════════════════════
