@@ -182,6 +182,20 @@ export const communityMedia: MediaItem[] = [
     category: "mentorship",
     type: "image"
   },
+  {
+    src: "IMG-20260417-021229.png",
+    title: "Students Arriving at ArtGalZim Center",
+    description: "Students on a guided tour arriving at the ArtGalZim Center — a group of eager young visitors gathered at the gallery entrance, ready to explore and be inspired by the world of contemporary African art.",
+    category: "mentorship",
+    type: "image"
+  },
+  {
+    src: "IMG-20260417-021331.png",
+    title: "Students Group Photo at ArtGalZim Center",
+    description: "A joyful group photo of students on a tour at the ArtGalZim Center — young visitors posing proudly in the gallery courtyard, celebrating a memorable day of art, culture, and creative discovery.",
+    category: "mentorship",
+    type: "image"
+  },
 
 
 
