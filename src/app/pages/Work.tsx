@@ -40,13 +40,7 @@ const videoFiles = [
     duration: 'Behind The Scenes',
     description: 'Exploring forms and discovering new narratives in the studio.'
   },
-  {
-    id: 'v6',
-    title: 'Studio Session VI',
-    src: '/videos/VID-20260415-WA0020.mp4',
-    duration: 'Behind The Scenes',
-    description: 'An intimate look at the delicate application of mixed media elements.'
-  },
+
   {
     id: 'v7',
     title: 'Studio Session VII',
@@ -82,20 +76,7 @@ const videoFiles = [
     duration: 'Full Feature',
     description: 'A glimpse into the artist\'s profound process and creative expressions.'
   },
-  {
-    id: 'v12',
-    title: 'Studio Session XI',
-    src: '/videos/WhatsApp Video 2026-04-04 at 10.44.48.mp4',
-    duration: 'Behind The Scenes',
-    description: 'Exploring forms and discovering new narratives in the studio.'
-  },
-  {
-    id: 'v13',
-    title: 'Studio Session XII',
-    src: '/videos/WhatsApp Video 2026-04-04 at 10.44.49.mp4',
-    duration: 'Behind The Scenes',
-    description: 'An intimate look at the delicate application of mixed media elements.'
-  },
+
   {
     id: 'v14',
     title: 'Studio Session XIII',
@@ -149,7 +130,8 @@ export function Work() {
       } else if (title.toLowerCase().includes("personal journey") || title.toLowerCase().includes("personal")) {
         year = "2026";
         size = "60x90cm";
-        description = "An intense abstract work dominated by a deep red, textured fabric-like form that appears torn and dripping, set against a fiery gradient background. Here, the artist's physical presence alongside the piece amplifies its raw emotion. The thick impasto evokes themes of suffering and the physicality of pain, while the dripping strokes imply wounds and loss, inviting viewers into an intimately personal contemplation of anguish and ultimate resilience.";
+        medium = "Mixed Media on Canvas";
+        description = "As I reflect on my artistic journey, I'm reminded of the power of transformation. From the precise brushstrokes of realism to the expressive gestures of abstraction, my path has been one of exploration and discovery.\n\nGrowing up in Zimbabwe, I was captivated by the vibrant colors and textures of our culture. Realism was my first love, a way to capture the world around me with precision and detail. But as I grew, so did my desire to convey the emotions and energies that lay beneath the surface.\n\nMy journey into abstract expressionism was a natural evolution, a merging of my technical skills with my inner world. The freedom to express, to experiment, and to create without boundaries has been liberating.\n\nMy new series, Red Liberation, is a culmination of this journey. Inspired by Zimbabwe's history, culture, and landscapes, these abstract works are a reflection of my own liberation – a release from the constraints of representation, and an embracing of the unknown.\n\nThe red hues evoke the ancient rhythms of Africa, the resilience of our people, and the blood shed by brave hearts who fought for freedom. From the transatlantic slave trade to colonialism, our continent was ravaged, our people brutalized. But through it all, the spirit of resistance burned bright.\n\nMen and women, young and old, rose up to challenge the status quo. They sacrificed everything for a dream of a free and equal society. Their blood, sweat, and tears watered the seeds of independence, and today we reap the fruits of their labor.\n\nRed Liberation is a tribute to their courage, their resilience, and their unwavering commitment to freedom. It's a celebration of our heritage, our culture, and our identity. Join me on this journey, as I continue to explore, express, and evolve.";
       }
 
       return {
@@ -223,21 +205,27 @@ export function Work() {
                       {artwork.title}
                     </h2>
 
-                    <div className="space-y-3 mb-10 text-white/60">
-                      <p className="flex items-center gap-4 border-b border-white/5 pb-2" style={{ fontSize: '0.875rem', letterSpacing: '0.05em', textTransform: 'uppercase' }}>
-                        <span className="w-16 text-white/40">Medium</span> {artwork.medium}
-                      </p>
-                      <p className="flex items-center gap-4 border-b border-white/5 pb-2" style={{ fontSize: '0.875rem', letterSpacing: '0.05em', textTransform: 'uppercase' }}>
-                        <span className="w-16 text-white/40">Size</span> {artwork.size}
-                      </p>
-                      <p className="flex items-center gap-4 border-b border-white/5 pb-2" style={{ fontSize: '0.875rem', letterSpacing: '0.05em', textTransform: 'uppercase' }}>
-                        <span className="w-16 text-white/40">Year</span> {artwork.year}
-                      </p>
-                    </div>
+                    {!artwork.title.toLowerCase().includes('personal journey') && (
+                      <div className="space-y-3 mb-10 text-white/60">
+                        <p className="flex items-center gap-4 border-b border-white/5 pb-2" style={{ fontSize: '0.875rem', letterSpacing: '0.05em', textTransform: 'uppercase' }}>
+                          <span className="w-16 text-white/40">Medium</span> {artwork.medium}
+                        </p>
+                        <p className="flex items-center gap-4 border-b border-white/5 pb-2" style={{ fontSize: '0.875rem', letterSpacing: '0.05em', textTransform: 'uppercase' }}>
+                          <span className="w-16 text-white/40">Size</span> {artwork.size}
+                        </p>
+                        <p className="flex items-center gap-4 border-b border-white/5 pb-2" style={{ fontSize: '0.875rem', letterSpacing: '0.05em', textTransform: 'uppercase' }}>
+                          <span className="w-16 text-white/40">Year</span> {artwork.year}
+                        </p>
+                      </div>
+                    )}
                     
-                    <p className="text-white/80 font-light leading-relaxed" style={{ fontSize: '1.0625rem' }}>
-                      {artwork.description}
-                    </p>
+                    <div className="space-y-4">
+                      {artwork.description.split('\n\n').map((para, i) => (
+                        <p key={i} className="text-white/80 font-light leading-relaxed" style={{ fontSize: '1.0625rem' }}>
+                          {para}
+                        </p>
+                      ))}
+                    </div>
                   </div>
                 </div>
               </div>

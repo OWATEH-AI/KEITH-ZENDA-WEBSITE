@@ -48,13 +48,13 @@ export function Contact() {
               Instagram
             </p>
             <a
-              href="https://instagram.com/zendaism"
+              href="https://www.instagram.com/keithzenda_abstractart?utm_source=qr&igsh=bGQ2bnBhdXd0cnd0"
               target="_blank"
               rel="noopener noreferrer"
               className="block text-foreground hover:opacity-60 transition-opacity"
               style={{ fontSize: '1.125rem', letterSpacing: '0.005em' }}
             >
-              @zendaism
+              @Keithzenda_abstractart
             </a>
           </div>
 
