@@ -40,7 +40,7 @@ export function Community() {
                 controlsList="nodownload"
                 onContextMenu={(e) => e.preventDefault()}
                 className="w-full h-full object-cover transform transition-transform duration-700 ease-out group-hover:scale-[1.02]"
-                preload="metadata"
+                preload="none"
               >
                 Your browser does not support the video tag.
               </video>

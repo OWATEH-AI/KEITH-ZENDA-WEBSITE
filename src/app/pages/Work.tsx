@@ -6,78 +6,6 @@ const artworkFiles = import.meta.glob("@/assets/artworks/*.{png,jpg,jpeg,webp,sv
 
 const videoFiles = [
   {
-    id: 'v1',
-    title: 'Studio Session I',
-    src: '/videos/VID-20260415-WA0040.mp4',
-    duration: 'Behind The Scenes',
-    description: 'Exploring forms and discovering new narratives in the studio.'
-  },
-  {
-    id: 'v2',
-    title: 'Studio Session II',
-    src: '/videos/VID-20260415-WA0036.mp4',
-    duration: 'Behind The Scenes',
-    description: 'An intimate look at the delicate application of mixed media elements.'
-  },
-  {
-    id: 'v3',
-    title: 'Studio Session III',
-    src: '/videos/VID-20260415-WA0035.mp4',
-    duration: 'Behind The Scenes',
-    description: 'Witnessing the creative flow and unyielding artistic dedication.'
-  },
-  {
-    id: 'v4',
-    title: 'Studio Session IV',
-    src: '/videos/VID-20260415-WA0032.mp4',
-    duration: 'Behind The Scenes',
-    description: 'The final touches bringing the canvas to life with vivid storytelling.'
-  },
-  {
-    id: 'v5',
-    title: 'Studio Session V',
-    src: '/videos/VID-20260415-WA0022.mp4',
-    duration: 'Behind The Scenes',
-    description: 'Exploring forms and discovering new narratives in the studio.'
-  },
-
-  {
-    id: 'v7',
-    title: 'Studio Session VII',
-    src: '/videos/VID-20260415-WA0019.mp4',
-    duration: 'Behind The Scenes',
-    description: 'Witnessing the creative flow and unyielding artistic dedication.'
-  },
-  {
-    id: 'v8',
-    title: 'Studio Session VIII',
-    src: '/videos/VID-20260415-WA0018.mp4',
-    duration: 'Behind The Scenes',
-    description: 'The final touches bringing the canvas to life with vivid storytelling.'
-  },
-  {
-    id: 'v9',
-    title: 'Studio Session IX',
-    src: '/videos/VID-20260415-WA0017.mp4',
-    duration: 'Behind The Scenes',
-    description: 'Exploring forms and discovering new narratives in the studio.'
-  },
-  {
-    id: 'v10',
-    title: 'Studio Session X',
-    src: '/videos/VID-20260415-WA0016.mp4',
-    duration: 'Behind The Scenes',
-    description: 'An intimate look at the delicate application of mixed media elements.'
-  },
-  {
-    id: 'v11',
-    title: 'Keith Zenda Art',
-    src: '/videos/KEITH ZENDA ART.mp4',
-    duration: 'Full Feature',
-    description: 'A glimpse into the artist\'s profound process and creative expressions.'
-  },
-
-  {
     id: 'v14',
     title: 'Studio Session XIII',
     src: '/videos/WhatsApp Video 2026-04-04 at 10.44.50.mp4',
@@ -123,7 +51,22 @@ export function Work() {
 
       let description = `Part of the personal collection by Keith Zenda. This piece embodies the essence of ${medium.toLowerCase()}, reflecting the artist's ongoing exploration of form and emotion.`;
 
-      if (title.toLowerCase().includes("red liberation")) {
+      if (title.toLowerCase().includes("wrapped echo")) {
+        year = "2026";
+        size = "90x60cm";
+        medium = "Mixed Media";
+        description = "\"Wrapped Echo – Reclaimed Vestige\" is an immersive, tactile installation that repurposes waste textiles and metallic scraps to form a central, veiled figure encircled by a fragmented gold aureole. The textured surface and dripped white medium evoke both decay and renewal, making a powerful visual argument for material recycling in the fight against pollution.\n\nThe piece challenges galleries to showcase innovative sustainability narratives within contemporary practice, highlighting the artist's technical skill and ecological message for curatorial programming and exhibition discourse.";
+      } else if (title.toLowerCase().includes("aurora africana")) {
+        year = "2026";
+        size = "120x80cm";
+        medium = "Mixed Media";
+        description = "\"Aurora Africana: Reclaimed Gold\" is a mixed‑media assemblage that embeds shredded recycled fabric—treated to mimic aged mineral textures—into a luminous gold‑infused background, evoking the silhouette of the African continent.\n\nThe work interrogates the lifecycle of gold: from hazardous extraction and labor-intensive mining to its transformation into luxury commodities. By repurposing waste materials, the piece highlights ecological degradation and advocates recycling as a response to pollution and climate change.\n\nIts tactile relief and metallic sheen offer a sensory experience of resilience and environmental urgency, positioning it as a compelling acquisition for collections focused on sustainability, post‑colonial critique, and contemporary material innovation.";
+      } else if (title.toLowerCase().includes("terra preciosa")) {
+        year = "2026";
+        size = "90x60cm";
+        medium = "Mixed Media";
+        description = "In \"Terra Preciosa\", raw fabric and repurposed gold paint converge to expose the paradox of value in Africa's mineral wealth. This mixed-media work juxtaposes the perilous labor of indigenous gold panners—whose lives are risked in crumbling mines—against the gilded luxury gold fuels in global markets.\n\nA commentary on exploitation and environmental decay, the piece repurposes discarded materials to echo the extractive cycles harming African landscapes. Part social critique, part eco-plea, it urges viewers to reconcile humanity's relationship with Earth's \"precious\" resources.\n\nIdeal for collections focused on sustainability, postcolonial discourse, and contemporary resilience.";
+      } else if (title.toLowerCase().includes("red liberation")) {
         year = "2026";
         size = "60x90cm";
         description = "An intense abstract work dominated by a deep red, textured fabric-like form that appears torn and dripping, set against a gradient background that shifts from fiery red to warm peach tones fading into darkness. The thick impasto suggests blood-soaked cloth, evoking themes of violence, suffering, and the raw physicality of pain, while the dripping strokes imply wounds and loss, inviting viewers to contemplate anguish and resilience.";
@@ -181,6 +124,8 @@ export function Work() {
                   <img
                     src={artwork.image}
                     alt={artwork.title}
+                    loading="lazy"
+                    decoding="async"
                     className="w-full max-h-[70vh] object-cover md:object-contain bg-black/20 transition-transform duration-700 group-hover:scale-[1.02]"
                   />
                   <div className="absolute bottom-0 left-0 right-0 p-6 md:p-8 bg-gradient-to-t from-black/90 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-20 flex justify-between items-end">
@@ -256,17 +201,18 @@ export function Work() {
                     controls
                     controlsList="nodownload"
                     onContextMenu={(e) => e.preventDefault()}
-                    preload="metadata"
+                    preload="none"
+                    loading="lazy"
                   />
                 </div>
                 <div className="mt-6 flex-grow flex flex-col">
-                  <div className="flex justify-between items-start mb-3">
+                  <p className="text-white/60 text-sm leading-relaxed font-light mb-4">
+                    {video.description}
+                  </p>
+                  <div className="flex justify-between items-start">
                     <h3 className="text-xl font-light tracking-wide text-[var(--gold)]">{video.title}</h3>
                     <span className="text-xs uppercase tracking-widest text-white/40 whitespace-nowrap ml-4">{video.duration}</span>
                   </div>
-                  <p className="text-white/60 text-sm leading-relaxed font-light mt-auto">
-                    {video.description}
-                  </p>
                 </div>
               </div>
             ))}

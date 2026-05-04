@@ -254,76 +254,34 @@ export const communityMedia: MediaItem[] = [
   // VIDEOS — GALLERY CONSTRUCTION & OPENING (from VIDEEOS 2)
   // ═══════════════════════════════════════════════════════════════════
   {
-    src: "VID-20260410-WA0003.mp4",
+    src: "VID-20260410-WA0010.mp4",
     title: "Visual Chronicles - V01",
     description: "Official Gallery Opening & Mentorship Archive",
     category: "construction",
     type: "video"
   },
   {
-    src: "VID-20260410-WA0004.mp4",
+    src: "VID-20260410-WA0011.mp4",
     title: "Visual Chronicles - V02",
     description: "Official Gallery Opening & Mentorship Archive",
     category: "construction",
     type: "video"
   },
-  {
-    src: "VID-20260410-WA0010.mp4",
-    title: "Visual Chronicles - V03",
-    description: "Official Gallery Opening & Mentorship Archive",
-    category: "construction",
-    type: "video"
-  },
-  {
-    src: "VID-20260410-WA0011.mp4",
-    title: "Visual Chronicles - V04",
-    description: "Official Gallery Opening & Mentorship Archive",
-    category: "construction",
-    type: "video"
-  },
-  {
-    src: "VID-20260410-WA0012.mp4",
-    title: "Visual Chronicles - V05",
-    description: "Official Gallery Opening & Mentorship Archive",
-    category: "construction",
-    type: "video"
-  },
 
-  {
-    src: "VID-20260413-WA0019.mp4",
-    title: "Visual Chronicles - V07",
-    description: "Official Gallery Opening & Mentorship Archive",
-    category: "construction",
-    type: "video"
-  },
-  {
-    src: "VID-20260413-WA0020.mp4",
-    title: "Visual Chronicles - V08",
-    description: "Official Gallery Opening & Mentorship Archive",
-    category: "construction",
-    type: "video"
-  },
 
   // ═══════════════════════════════════════════════════════════════════
   // VIDEOS — MENTORSHIP & EDUCATION (from VIDEEOS 2)
   // ═══════════════════════════════════════════════════════════════════
   {
     src: "VID-20260410-WA0002.mp4",
-    title: "Visual Chronicles - V09",
+    title: "Visual Chronicles - V03",
     description: "Official Gallery Opening & Mentorship Archive",
     category: "mentorship",
     type: "video"
   },
   {
     src: "VID-20260410-WA0016.mp4",
-    title: "Visual Chronicles - V10",
-    description: "Official Gallery Opening & Mentorship Archive",
-    category: "mentorship",
-    type: "video"
-  },
-  {
-    src: "VID-20260410-WA0018.mp4",
-    title: "Visual Chronicles - V11",
+    title: "Visual Chronicles - V04",
     description: "Official Gallery Opening & Mentorship Archive",
     category: "mentorship",
     type: "video"
@@ -331,21 +289,21 @@ export const communityMedia: MediaItem[] = [
 
   {
     src: "VID-20260410-WA0033.mp4",
-    title: "Visual Chronicles - V14",
+    title: "Visual Chronicles - V05",
     description: "Official Gallery Opening & Mentorship Archive",
     category: "mentorship",
     type: "video"
   },
   {
     src: "VID-20260413-WA0017.mp4",
-    title: "Visual Chronicles - V15",
+    title: "Visual Chronicles - V06",
     description: "Official Gallery Opening & Mentorship Archive",
     category: "mentorship",
     type: "video"
   },
   {
     src: "VID-20260418-WA0049.mp4",
-    title: "Visual Chronicles - V16",
+    title: "Visual Chronicles - V07",
     description: "Official Gallery Opening & Mentorship Archive",
     category: "mentorship",
     type: "video"

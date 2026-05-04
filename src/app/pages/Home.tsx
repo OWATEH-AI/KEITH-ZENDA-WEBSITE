@@ -141,6 +141,8 @@ export function Home() {
                 src="/press/Screenshot 2026-04-12 060436.png" 
                 alt="NewsDay Feature: Art, identity and freedom in Keith Zenda's Zim journey" 
                 className="w-full shadow-2xl border border-foreground/10"
+                loading="lazy"
+                decoding="async"
               />
             </div>
             
