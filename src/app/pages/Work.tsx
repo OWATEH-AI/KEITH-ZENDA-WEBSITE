@@ -6,18 +6,18 @@ const artworkFiles = import.meta.glob("@/assets/artworks/*.{png,jpg,jpeg,webp,sv
 
 const videoFiles = [
   {
-    id: 'v14',
-    title: 'Studio Session XIII',
-    src: '/videos/WhatsApp Video 2026-04-04 at 10.44.50.mp4',
-    duration: 'Behind The Scenes',
-    description: 'Witnessing the creative flow and unyielding artistic dedication.'
-  },
-  {
     id: 'v15',
-    title: 'Studio Session XIV',
+    title: 'Studio Session I',
     src: '/videos/WhatsApp Video 2026-04-04 at 10.44.51.mp4',
     duration: 'Behind The Scenes',
-    description: 'The final touches bringing the canvas to life with vivid storytelling.'
+    description: 'A rare glimpse into Keith Zenda\'s studio practice — layers of mixed media are built up with deliberate intention, each brushstroke and applied texture drawing from the rich visual language of Zimbabwe\'s land and memory. The session captures the meditative rhythm of the creative process, from raw concept to emerging form.'
+  },
+  {
+    id: 'v16',
+    title: 'Studio Session II',
+    src: '/videos/VID-20260504-WA0050.mp4',
+    duration: 'Behind The Scenes',
+    description: 'In this intimate studio recording, Keith Zenda navigates the final, decisive phase of a new series — refining surfaces, resolving colour tensions, and embedding personal narrative into the fabric of the work. The footage bears witness to the quiet intensity that defines his practice: a sustained conversation between artist, material, and meaning.'
   }
 ];
 
