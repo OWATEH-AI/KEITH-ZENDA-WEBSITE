@@ -39,16 +39,7 @@ export function About() {
               My journey into abstract expressionism was a natural evolution, a merging of my technical skills with my inner world. The freedom to express, to experiment, and to create without boundaries has been liberating.
             </p>
             <p className="text-base md:text-[1.0625rem] leading-[1.85] md:leading-[1.95] tracking-[0.002em] opacity-90">
-              My new series, <em>Red Liberation</em>, is a culmination of this journey. Inspired by Zimbabwe's history, culture, and landscapes, these abstract works are a reflection of my own liberation – a release from the constraints of representation, and an embracing of the unknown.
-            </p>
-            <p className="text-base md:text-[1.0625rem] leading-[1.85] md:leading-[1.95] tracking-[0.002em] opacity-90">
-              The red hues evoke the ancient rhythms of Africa, the resilience of our people, and the blood shed by brave hearts who fought for freedom. From the transatlantic slave trade to colonialism, our continent was ravaged, our people brutalized. But through it all, the spirit of resistance burned bright.
-            </p>
-            <p className="text-base md:text-[1.0625rem] leading-[1.85] md:leading-[1.95] tracking-[0.002em] opacity-90">
-              Men and women, young and old, rose up to challenge the status quo. They sacrificed everything for a dream of a free and equal society. Their blood, sweat, and tears watered the seeds of independence, and today we reap the fruits of their labor.
-            </p>
-            <p className="text-base md:text-[1.0625rem] leading-[1.85] md:leading-[1.95] tracking-[0.002em] opacity-90">
-              <em>Red Liberation</em> is a tribute to their courage, their resilience, and their unwavering commitment to freedom. It's a celebration of our heritage, our culture, and our identity. Join me on this journey, as I continue to explore, express, and evolve.
+              My new series, <em>Liberation</em>, is a culmination of this journey. Inspired by Zimbabwe's history, culture, and landscapes, these abstract works are a reflection of my own liberation – a release from the constraints of representation, and an embracing of the unknown.
             </p>
           </div>
 

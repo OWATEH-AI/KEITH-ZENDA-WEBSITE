@@ -67,7 +67,7 @@ export function Home() {
             style={{ fontSize: 'clamp(3.5rem, 12vw, 7.5rem)', fontWeight: 200, letterSpacing: '0.05em', lineHeight: '0.9', color: 'var(--gold)' }} 
             className="mb-10 uppercase"
           >
-            Red <br/> Liberation
+            Liberation
           </motion.h1>
           
           <motion.div 
