@@ -1,6 +1,21 @@
 import artistPhoto from "@/assets/329d20e03b55a53a474fa4daeb10b21d3ab00299.png";
 
 export function About() {
+  const interviews = [
+    {
+      id: "interview-1",
+      num: "I",
+      title: "Keith Zenda — Interview I",
+      driveUrl: "https://drive.google.com/file/d/1AQOPooG9sGnt_74hnykqU14rLDY0gK3a/view",
+    },
+    {
+      id: "interview-2",
+      num: "II",
+      title: "Keith Zenda — Interview II",
+      driveUrl: "https://drive.google.com/file/d/1odBhIUkypBDS2TgWuxjU8Ua6IGkJXijB/view",
+    },
+  ];
+
   return (
     <div className="pt-24 pb-10 px-6 md:pt-36 md:pb-20 md:px-12">
       <div className="max-w-6xl mx-auto">
@@ -50,6 +65,136 @@ export function About() {
             </div>
           </div>
         </div>
+
+        {/* Divider */}
+        <div className="my-20 md:my-28 lg:my-36 flex items-center gap-6">
+          <div className="flex-1 h-[1px] bg-foreground/10"></div>
+          <span className="text-[10px] uppercase tracking-[0.35em] opacity-40">In the Spotlight</span>
+          <div className="flex-1 h-[1px] bg-foreground/10"></div>
+        </div>
+
+        {/* Interview Videos Section */}
+        <section id="interviews" aria-label="Keith Zenda Interviews">
+          <div className="mb-10 md:mb-16">
+            <p className="text-xs uppercase tracking-[0.3em] mb-3" style={{ color: 'var(--gold)', opacity: 0.85 }}>
+              Conversations
+            </p>
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-light tracking-[0.01em] leading-tight">
+              Interviews &amp; Profile
+            </h2>
+            <p className="mt-4 max-w-lg text-sm md:text-base opacity-60 leading-relaxed">
+              Watch Keith Zenda speak about his practice, cultural heritage, and the stories behind his art.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-8 md:gap-12">
+            {interviews.map((interview) => (
+              <div key={interview.id} id={interview.id}>
+                {/* Clickable play card */}
+                <a
+                  href={interview.driveUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={`Watch ${interview.title}`}
+                  style={{
+                    display: "block",
+                    position: "relative",
+                    width: "100%",
+                    paddingBottom: "56.25%",
+                    background: "linear-gradient(135deg, #0d0d0d 0%, #1a1208 60%, #0d0d0d 100%)",
+                    overflow: "hidden",
+                    textDecoration: "none",
+                    border: "1px solid rgba(255,255,255,0.07)",
+                    cursor: "pointer",
+                  }}
+                  className="group"
+                >
+                  {/* Subtle grid texture overlay */}
+                  <div style={{
+                    position: "absolute", inset: 0,
+                    backgroundImage: "radial-gradient(circle, rgba(180,140,60,0.06) 1px, transparent 1px)",
+                    backgroundSize: "28px 28px",
+                  }} />
+
+                  {/* Corner accent lines */}
+                  <div style={{
+                    position: "absolute", top: 16, left: 16,
+                    width: 32, height: 32,
+                    borderTop: "1px solid rgba(180,140,60,0.4)",
+                    borderLeft: "1px solid rgba(180,140,60,0.4)",
+                  }} />
+                  <div style={{
+                    position: "absolute", bottom: 16, right: 16,
+                    width: 32, height: 32,
+                    borderBottom: "1px solid rgba(180,140,60,0.4)",
+                    borderRight: "1px solid rgba(180,140,60,0.4)",
+                  }} />
+
+                  {/* Centre content */}
+                  <div style={{
+                    position: "absolute", inset: 0,
+                    display: "flex", flexDirection: "column",
+                    alignItems: "center", justifyContent: "center", gap: 16,
+                  }}>
+                    {/* Play button circle */}
+                    <div style={{
+                      width: 72, height: 72, borderRadius: "50%",
+                      border: "1.5px solid rgba(180,140,60,0.7)",
+                      display: "flex", alignItems: "center", justifyContent: "center",
+                      background: "rgba(180,140,60,0.08)",
+                    }}
+                      className="transition-all duration-300 ease-out group-hover:scale-110 group-hover:bg-[#b48c3c20] group-hover:border-[#b48c3c]"
+                    >
+                      {/* Triangle */}
+                      <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+                        <polygon
+                          points="7,4 21,12 7,20"
+                          fill="rgba(180,140,60,0.9)"
+                          stroke="rgba(180,140,60,0.9)"
+                          strokeLinejoin="round"
+                          strokeWidth="1"
+                        />
+                      </svg>
+                    </div>
+
+                    {/* Label */}
+                    <div style={{ textAlign: "center" }}>
+                      <p style={{
+                        fontSize: "0.6rem", letterSpacing: "0.35em",
+                        textTransform: "uppercase", color: "rgba(180,140,60,0.75)",
+                        marginBottom: 4,
+                      }}>
+                        Interview {interview.num}
+                      </p>
+                      <p style={{
+                        fontSize: "0.6rem", letterSpacing: "0.25em",
+                        textTransform: "uppercase", color: "rgba(255,255,255,0.3)",
+                      }} className="transition-colors duration-300 group-hover:text-white/60">
+                        Click to open video ↗
+                      </p>
+                    </div>
+                  </div>
+
+                  {/* Hover shimmer */}
+                  <div style={{
+                    position: "absolute", inset: 0,
+                    background: "linear-gradient(135deg, transparent 40%, rgba(180,140,60,0.08) 100%)",
+                    pointerEvents: "none",
+                  }}
+                    className="opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-in-out"
+                  />
+                </a>
+
+                {/* Caption */}
+                <div className="mt-5">
+                  <h3 className="text-sm uppercase tracking-widest font-light" style={{ color: "var(--gold)" }}>
+                    {interview.title}
+                  </h3>
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
       </div>
     </div>
   );
