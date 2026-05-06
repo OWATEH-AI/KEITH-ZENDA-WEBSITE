@@ -55,7 +55,7 @@ export function Work() {
         year = "2026";
         size = "90x60cm";
         medium = "Mixed Media";
-        description = "\"Wrapped Echo – Reclaimed Vestige\" is an immersive, tactile installation that repurposes waste textiles and metallic scraps to form a central, veiled figure encircled by a fragmented gold aureole. The textured surface and dripped white medium evoke both decay and renewal, making a powerful visual argument for material recycling in the fight against pollution.\n\nThe piece challenges galleries to showcase innovative sustainability narratives within contemporary practice, highlighting the artist's technical skill and ecological message for curatorial programming and exhibition discourse.";
+        description = "\"Wrapped Echo – Reclaimed Vestige\" is an immersive, tactile installation that repurposes waste textiles and metallic scraps to form a central, veiled figure encircled by a fragmented gold aureole. The textured surface and dripped white medium evoke both decay and renewal, making a powerful visual argument for material recycling in the fight against pollution.\n\n";
       } else if (title.toLowerCase().includes("aurora africana")) {
         year = "2026";
         size = "120x80cm";
